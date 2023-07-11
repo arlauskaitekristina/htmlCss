@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    margin: 14px 12px 21px 18px;
+}
+
+.header_logo_link {
+    padding-top: 26x;
+    padding-bottom: 48px;
+    padding-right: 337px;
+    padding-left: 59px;
+}
+
+.header_links {
+    display: flex;
+    padding-top: 26x;
+
+}
+
+.header_link_home {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.header_link {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.top_content {
+    display: flex;
+    margin-right: 27px;
+    margin-left: 18px;
+    margin-bottom: 53px;
+}
+
+.top_info {
+    margin-top: 15px;
+    margin-right: 13px;
+    margin-left: 16px;
+}
+
+.title {
+    padding-top: 59px;
+    padding-left: 41px;
+    padding-right: 26px;
+    padding-bottom: 17px;
+}
+
+.text {
+    padding-left: 41px;
+    padding-right: 82px;
+    padding-bottom: 16px;
+}
+
+.top_buttons {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 195px;
+    margin-bottom: 38px;
+}
+
+.button_start {
+    width: 140px;
+    height: 50px;
+    margin-left: 23px;
+    padding-top: 21px;
+    padding-bottom: 23px;
+}
+
+.button_watch {
+    margin-left: 72px;
+}
+
+.top_image {
+    width: 544.81px;
+    height: 374.84px;
+}
+
+.top_logo {
+    margin: 53px 45px 32px 34px;
+    padding-left: 13px;
+    padding-right: 27px;
+    display: flex;
+    justify-content: space-between
+}
+
+.logo {
+    margin-right: 48px;
+}

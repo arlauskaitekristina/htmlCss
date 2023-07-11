@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 39px;
+    text-align: center;
+}
+
+.top_content {
+    text-align: left;
+    display: flex;
+}
+
+.top_info {
+    margin-right: 128px;
+}
+
+.text_one {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.text_two {
+    margin-bottom: 50px;
+}
+
+.top_button {
+    padding: 15px 30px;
+}
