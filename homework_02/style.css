@@ -130,7 +130,7 @@ body {
 }
 
 .top_logo {
-    padding: 97px 375px 96px 375px;
+    padding: 97px 375px 96px 345px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
