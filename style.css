@@ -1,11 +1,11 @@
+a {
+    text-decoration: none;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
 }
 
 body {
@@ -14,25 +14,33 @@ body {
 
 .header {
     display: flex;
-    gap: 500px;
+    margin: 14px 12px 21px 18px;
 }
 
 .header_logo_link {
-    padding-left: 375px;
-    padding-top: 40px;
+    padding-top: 26x;
+    padding-bottom: 48px;
+    padding-right: 337px;
+    padding-left: 59px;
+    /* margin-left: 375px;
+    margin-top: 40px; */
 }
 
 .header_links {
-    width: 533px;
-    height: 17px;
-    padding-top: 51px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    padding-top: 26x;
+
+    /* margin-right: 375px;
+    margin-left: 500px;
+    margin-top: 51px; */
+    justify-content: space-around;
+    gap: 20px;
+
+
 }
 
 .header_link_home {
+    margin-right: 15px;
     text-decoration: none;
     color: #F25822;
     font-family: Gilroy-SemiBold;
@@ -43,6 +51,7 @@ body {
 }
 
 .header_link {
+    margin-right: 15px;
     text-decoration: none;
     color: #000;
     font-family: Gilroy-SemiBold;
@@ -54,21 +63,24 @@ body {
 
 .top_content {
     display: flex;
-    justify-content: flex-start;
-    gap: 39px;
-    padding-left: 373px;
-    padding-top: 84px;
-    padding-bottom: 162px;
+    margin-right: 27px;
+    margin-left: 18px;
+    margin-bottom: 53px;
 }
 
 .top_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    margin-top: 15px;
+    margin-right: 13px;
+    margin-left: 16px;
 }
 
 .title {
+    padding-top: 59px;
+    padding-left: 41px;
+    padding-right: 26px;
     padding-bottom: 17px;
+    margin-left: 375px;
+    margin-top: 164px;
     color: #000;
     font-size: 60px;
     font-family: Gilroy-Bold;
@@ -78,7 +90,11 @@ body {
 }
 
 .text {
-    padding-bottom: 37px;
+    padding-left: 41px;
+    padding-right: 82px;
+    padding-bottom: 16px;
+    margin-left: 375px;
+    margin-top: 403px;
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
@@ -89,12 +105,17 @@ body {
 
 .top_buttons {
     display: flex;
-    gap: 72px;
+    margin-left: 20px;
+    margin-right: 195px;
+    margin-bottom: 38px;
 }
 
 .button_start {
     width: 140px;
     height: 50px;
+    margin-left: 23px;
+    padding-top: 15px;
+    padding-bottom: 16px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -111,6 +132,7 @@ body {
 }
 
 .button_watch {
+    margin-left: 72px;
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
@@ -125,15 +147,18 @@ body {
 }
 
 .top_image {
-    width: 610.73px;
-    height: 372.9px;
+    width: 544.81px;
+    height: 374.84px;
 }
 
 .top_logo {
-    padding: 97px 375px 96px 375px;
+    margin: 53px 45px 32px 34px;
+    padding-left: 13px;
+    padding-right: 27px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 48px;
+    justify-content: space-between
+}
+
+.logo {
+    margin-right: 48px;
 }
