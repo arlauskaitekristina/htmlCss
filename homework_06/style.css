@@ -202,6 +202,7 @@ body {
 .bott-content-container {
     margin-top: 48px;
     margin-bottom: 48px;
+    display: grid;
     grid-template-columns: repeat(3, 360px);
     justify-content: center;
     flex-wrap: wrap;
