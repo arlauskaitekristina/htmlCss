@@ -15,8 +15,9 @@ body {
 }
 
 .header {
+    gap: 859px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 100%;
     height: 75px;
@@ -26,16 +27,18 @@ body {
 
 .header-left {
     display: flex;
-    margin-left: 231px;
     gap: 41px;
     align-items: center;
 }
 
 .header-right {
     display: flex;
-    margin-right: 240px;
-    gap: 33px;
     align-items: center;
+}
+
+.header-profile {
+    margin-left: 33px;
+    margin-right: 33px;
 }
 
 .top-content {
@@ -215,6 +218,11 @@ body {
     background-color: #F8F8F8;
 }
 
+.bott-content-container-box-img-07 {
+    height: 420px;
+    padding-left: 108px;
+}
+
 .bott-content-container-box-title {
     padding-top: 24px;
     padding-left: 16.46px;
@@ -275,4 +283,77 @@ body {
     font-weight: 400;
     line-height: normal;
     background: transparent;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .header {
+        gap: 424px;
+    }
+
+    .header-profile {
+        margin-left: 25px;
+        margin-right: 42px;
+    }
+
+    .top-content {
+        max-height: 368px;
+        gap: 39px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .top-content-img {
+        max-width: 368px;
+        max-height: 386px;
+    }
+
+    .top-content-right {
+        margin-right: 33.57px;
+    }
+
+    .top-content-text-big {
+        font-size: 44px;
+    }
+
+    .top-content-text-small {
+        font-size: 24px;
+    }
+
+    .content-center {
+        max-width: 1024px;
+        margin: 0 16px;
+    }
+
+    .mid-content {
+        gap: 20px;
+        margin-bottom: 110px;
+    }
+
+    .mid-content-block-small {
+        gap: 20px;
+    }
+
+    .mid-block {
+
+        max-width: 232.33px;
+    }
+
+    .mid-block-big {
+        max-width: 736px;
+    }
+
+
+    .bott-content-text {
+        gap: 3.3px;
+    }
+
+    .bott-content-container {
+        margin-top: 73.74px;
+        margin-bottom: 32.48px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 14px;
+    }
+
+
+
 }
