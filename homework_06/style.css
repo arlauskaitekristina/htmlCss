@@ -560,28 +560,6 @@ body {
     max-width: 332px;
 }
 
-/* .social__icons {
-    display: flex;
-    flex-direction: row;
-    gap: 7px;
-}
-
-.contacts__icon {
-
-    width: 32px;
-    height: 32px;
-    background-color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-}
-
-.contacts__icon:hover {
-    background-color: #F16D7F;
-} */
-
-
 .social__contacts {
     display: flex;
     flex-direction: row;
